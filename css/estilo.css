@@ -1,0 +1,166 @@
+html, body{
+	height: 100%;
+	overflow-x: hidden;
+}
+
+body{
+	background: url(../imagens/fundo1.png) no-repeat, 
+				url(../imagens/ruido.png),
+				linear-gradient(50deg,#61a8ff,#a46ab8);
+	background-attachment: fixed;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+	color: white;
+}
+
+.navbar-expand-md .navbar-nav .nav-link:hover {
+	color: #ffbc1c;
+}
+
+/*Barra de navegação*/
+nav.navbar-transparente{
+	padding: 15px 0;
+	background: rgba(7,16,50,0.5);
+}
+
+section#home{
+	margin-bottom: 85px;
+	margin-top: 10em;
+}
+
+section#banner-principal h1{
+	color: white;
+	margin: 15px 0;
+	font-size: 8em;
+	text-align: center;
+}
+
+#home2{
+	background: ;
+}
+
+#banner-principal{
+	background: rgba(0,0,0,0.3);
+	padding: 20px;
+	font-size: 0.2em;
+}
+
+#ecossistema{
+	margin-top: 7em;
+}
+.dev{
+	color: white;
+	margin: 15px 0;
+	font-size: 7em;
+	text-align: center;
+	opacity: 0.9;
+}
+.centro{
+	right: 90px;
+	transform: rotate(10deg);
+}
+
+.topo{
+	top: -150px;
+}
+
+.mll{
+	margin-left: 13em;
+}
+section img.opc{
+	opacity: 0.8;
+}
+
+section img.opc:hover{
+ transform: scale(1.1);
+ opacity: 1;
+}
+
+section#home h1{
+	/*-0.5*/
+	margin-bottom: 1em;	
+	border-bottom: 3px solid #ef8210;
+	border-radius: 8px;
+	border-radius: 200px;
+}
+section#home{
+	/*-0.5*/
+	margin-top: 5em;
+}
+
+
+section#repear{
+	margin-bottom: 100px;
+}
+
+
+section#imperatriz{
+	margin-bottom: 100px;
+}
+
+section#ecossistema h1 {
+	margin-bottom: 1.3em;
+	border-bottom: 3px solid #ef8210;
+	border-radius: 200px;
+}
+
+
+
+section#ecossistema img {
+	margin-bottom: 20px;
+	padding: 25px;
+	border-radius: 20em;
+	opacity: 0.7;
+}
+
+section#ecossistema img:hover {
+	opacity: 1;
+	transform: scale(1.1);
+}
+
+span{
+	color:#caece0;
+}
+
+header{
+	margin-bottom: 8em;
+}
+
+footer{
+	background: rgba(7,16,50,0.5);
+
+}
+.tp{
+	opacity: 0.5;
+}
+
+.input-group>.input-group-append>.btn, .input-group>.input-group-append>.input-group-text, .input-group>.input-group-prepend:first-child>.btn:not(:first-child), .input-group>.input-group-prepend:first-child>.input-group-text:not(:first-child), .input-group>.input-group-prepend:not(:first-child)>.btn, .input-group>.input-group-prepend:not(:first-child)>.input-group-text{
+	background-color: #cd39cf;
+	border: 1px solid #cd39cf;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+		
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+		
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+		
+}
+
